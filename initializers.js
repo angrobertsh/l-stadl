@@ -34,7 +34,7 @@ function renderNav(language, active){
           <div id="contact-info" class="flex flex-col mr-4"> \
             <div>Martin-Luther-Strasse 15 | D-10777 Berlin</div><div>Wed - Sat: 12.00 - 19.00 | ☎ 030-5490 6616</div> \
           </div> \
-          <a href="../' + href + '/welcome.html" id="' + flagId + '" class="border border-white"></a> \
+          <a href="../' + href + '/wilkommen.html" id="' + flagId + '" class="border border-white"></a> \
         </div> \
       </div> \
       <div id="wide-nav" class="w-full block flex-grow flex-col lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-auto hidden"> \
