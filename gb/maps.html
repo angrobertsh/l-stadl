@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Lederhosen Stadl | Tradition | Fetish</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Lederhosen-Stadl, a consignment leather shop selling traditional Bavarian lederhosen and leather fetish gear located in Berlin's Schoeneberg district.">
+		<meta property="og:title" content="Lederhosen Stadl" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.lederhosen-stadl.de" />
+
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../base.css">
+		<link rel="stylesheet" href="../lightbox.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
+		<script src="../initializers.js"></script>
+		<script src="../lightbox.js"></script>
+	</head>
+	<body>
+		<div id="nav-container">
+			<script>
+				renderNav("gb", "maps");
+			</script>
+		</div>
+		<div>
+			<section>
+				<div id="hero-top" class="w-full relative shadow-md flex justify-center items-center">
+					<a href="./home.html">
+						<img src="../images/logo.jpg">
+					</a>
+				</div>
+			</section>
+			<section class="flex flex-col items-center relative bg-custom-teal text-white p-8">
+				<div class="md:w-3/4">
+					<div class="flex justify-center w-full">
+						<h1 class="text-3xl m-2"><b>Maps</b></h1>
+					</div>
+					<p>We are located in the heart of Berlin's Shoeneberg district, just a 5 minute walk away from the famous KaDeWe, between Wittenbergplatz and Nollendorfplatz. Parking is available in front of the shop as well as in all nearby streets.</p>
+				</div>
+
+				<div class="flex flex-col">
+					<img id="map" src="../images/map.jpg" class="my-2 shadow-md cursor-pointer" onclick="openModal();showSlide(1)">
+					<div class="flex flex-col items-center justify-center">
+						<a class="my-2" href="https://www.google.de/maps/place/LEDERHOSEN-STADL/@52.4981575,13.345345,18z/data=!4m13!1m7!3m6!1s0x47a850504d34beff:0x8df2ffebbb940c78!2sMartin-Luther-Stra%c3%9fe+15,+10777+Berlin!3b1!8m2!3d52.4981853!4d13.3464112!3m4!1s0x0000000000000000:0x5c28b85b7fc604c9!8m2!3d52.4981293!4d13.3463824?hl=de">Google Maps</a>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.9506694000843!2d13.344188450941642!3d52.49813254550356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850504d34beff%3A0x5c28b85b7fc604c9!2sLEDERHOSEN-STADL!5e0!3m2!1sen!2sde!4v1567589753466!5m2!1sen!2sde" width="100%" max-width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div id="image-modal" class="modal hidden">
+			<div class="close cursor fixed" onclick="closeModal()">&times;</div>
+			<div id="modal-content-container" class="flex align-center">
+				<div class="modal-content flex w-full align-center justify-around">
+					<div class="image-modal-slide flex justify-center bg-transparent">
+					    <img src="../images/map.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-container">
+			<script>
+				renderFooter("gb");
+			</script>
+		</div>
+	</body>
+</html>

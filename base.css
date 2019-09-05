@@ -1,0 +1,85 @@
+a {
+	color: rgba(38, 48, 60, 1);
+	text-decoration: underline;
+}
+
+p {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+footer a {
+	color: white;
+}
+
+.nav-active {
+	border-bottom: 1px solid rgba(0, 154, 214, 1);
+}
+
+.border-custom-teal {
+	border-color: rgba(0, 154, 214, 1);
+}
+
+.bg-custom-teal {
+	background-color: rgba(0, 154, 214, .8);
+}
+
+.bg-dark-blue {
+	background-color: rgba(38, 48, 60, 1);
+}
+
+.text-white {
+	color: white;
+}
+
+.text-sm .text-white:hover {
+	color: rgba(255, 255, 255, 0.8) !important;	
+}
+
+nav .border-white:hover {
+	border-color: rgba(255, 255, 255, 0.8) !important;	
+}
+
+.text-transparent-white {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#de-flag {
+	background-image: url("images/d_flag_klein.png");
+	background-size: cover;
+	box-sizing: border-box;
+	height: 30px;
+	width: 45px;
+}
+
+#gb-flag {
+	background-image: url("images/gb_flag_klein.png");
+	background-size: cover;
+	box-sizing: border-box;
+	height: 30px;
+	width: 45px;
+}
+
+#hero-top {
+	height: 400px;
+	background-image: url("images/bg_boots.jpeg");
+	background-size: cover;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
