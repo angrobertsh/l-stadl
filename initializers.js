@@ -18,7 +18,7 @@ $(function(){
 
 function renderNav(language, active){
   if(language === "gb"){
-    var sections = ["home", "tradition", "fetish", "maps", "links", "contact"];
+    var sections = ["welcome", "tradition", "fetish", "maps", "links", "contact"];
     var href = "d";
     var flagId = "de-flag";
     var navHTML = '<nav class="flex items-center justify-between flex-wrap bg-dark-blue p-2"> \
@@ -34,7 +34,7 @@ function renderNav(language, active){
           <div id="contact-info" class="flex flex-col mr-4"> \
             <div>Martin-Luther-Strasse 15 | D-10777 Berlin</div><div>Wed - Sat: 12.00 - 19.00 | ☎ 030-5490 6616</div> \
           </div> \
-          <a href="../' + href + '/home.html" id="' + flagId + '" class="border border-white"></a> \
+          <a href="../' + href + '/welcome.html" id="' + flagId + '" class="border border-white"></a> \
         </div> \
       </div> \
       <div id="wide-nav" class="w-full block flex-grow flex-col lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-auto hidden"> \
@@ -54,7 +54,7 @@ function renderNav(language, active){
   $("#nav-" + active).addClass("nav-active")
 }
 
-// This is the rendered html of a noscript nav example for the home page
+// This is the rendered html of a noscript nav example for the welcome page
 
 // <noscript>
 //   <nav class="flex items-center justify-between flex-wrap bg-dark-blue p-2">
@@ -69,14 +69,14 @@ function renderNav(language, active){
 //             <div>Martin-Luther-Strasse 15 | D-10777 Berlin</div>
 //             <div>Wed - Sat: 12.00 - 19.00 | ☎ 030-5490 6616</div>
 //           </div>
-//           <a href="../d/home.html" id="de-flag" class="border border-white"></a>
+//           <a href="../d/welcome.html" id="de-flag" class="border border-white"></a>
 //         </div>
 //     </div>
 //     <div id="wide-nav" class="w-full block flex-grow flex-col lg:flex lg:flex-row lg:items-center lg:justify-between lg:w-auto hidden">
 //         <div class="text-sm flex flex-col lg:flex lg:flex-row">
 //           <div class="mt-2 lg:mx-2 lg:inline-block lg:mt-0">
-//               <a href="./home.html" class="text-white nav-active">
-//                   Home
+//               <a href="./welcome.html" class="text-white nav-active">
+//                   Welcome
 //               </a>
 //           </div>
 //           <div class="mt-2 lg:mx-2 lg:inline-block lg:mt-0">
