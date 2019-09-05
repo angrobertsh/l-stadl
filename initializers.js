@@ -1,6 +1,6 @@
 $(function(){
   // Initialize responsive nav
-  $("#nav-hamburger").on("click", function(){
+  $("body").on("click", "#nav-hamburger", function(){
     $("#wide-nav").toggleClass("hidden");
   })
 })
